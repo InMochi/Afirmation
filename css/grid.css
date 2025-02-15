@@ -1,0 +1,33 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10;
+    background-color: white;
+}
+
+.item{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.cobadah{
+    border-radius: 20px;
+}
+
+.isifooter{
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+body{
+    background-image: url(img/ACER.jpg);
+    overflow-x: hidden;
+}
+
+.warnadah{
+    background-color: aquamarine;
+}

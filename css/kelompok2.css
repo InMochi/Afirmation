@@ -1,0 +1,43 @@
+.responsive-box {
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .responsive-box {
+        background-color: orange;
+        color: white;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-box {
+        background-color: red;
+        color: white;
+    }
+}
+
+.responsive-layout {
+    display: flex;
+    gap: 10px;
+}
+
+.box {
+    flex: 1;
+    height: 100px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .responsive-layout {
+        flex-direction: column;
+    }
+}

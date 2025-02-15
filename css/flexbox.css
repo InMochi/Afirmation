@@ -1,0 +1,51 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center ;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.item{
+    background-color: green;
+    color: aqua;
+    padding:20px ;
+    margin: 10px ;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.ukuran-foto-index{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+
+}
+
+.foto-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.cobadah{
+    border-radius: 20px;
+}
+
+.isifooter{
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+body{
+    background-image: url(img/ACER.jpg);
+    overflow-x: hidden;
+}
+
+.warnadah{
+    background-color: aquamarine;
+}

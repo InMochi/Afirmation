@@ -1,0 +1,21 @@
+.responsive-text {
+    font-size: 5vw;
+}
+
+.rem-text {
+    font-size: 2rem;
+}
+
+.clamp-text {
+    font-size: clamp(1rem, 2.5vw, 3rem);
+}
+
+@media (max-width: 768px) {
+    .responsive-text {
+        font-size: 3vw;
+    }
+
+    .rem-text {
+        font-size: 1.5rem;
+    }
+}

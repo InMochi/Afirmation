@@ -1,0 +1,55 @@
+.sass-box {
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.sass-box:hover {
+    background-color: #2ecc71;
+}
+
+.sass-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    transition: 0.3s;
+}
+
+.sass-button:hover {
+    background-color: #2ecc71;
+}
+
+.card {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.card-header {
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-body {
+    padding: 15px;
+    font-size: 14px;
+}
+
+.card-footer {
+    background-color: #2ecc71;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
